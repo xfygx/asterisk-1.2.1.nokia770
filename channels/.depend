@@ -1,0 +1,1009 @@
+chan_agent.o: chan_agent.c /usr/include/stdio.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/string.h /usr/include/xlocale.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/alloca.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/netdb.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/rpc/netdb.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/netdb.h \
+  /usr/include/arpa/inet.h /usr/include/sys/signal.h \
+  /usr/include/signal.h /usr/include/bits/signum.h \
+  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+  /usr/include/asm/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/sys/ucontext.h /usr/include/sys/procfs.h \
+  /usr/include/sys/time.h /usr/include/sys/user.h \
+  /usr/include/bits/sigthread.h ../include/asterisk.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/bits/initspin.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/frame.h \
+  ../include/asterisk/endian.h ../include/asterisk/sched.h \
+  ../include/asterisk/chanvars.h ../include/asterisk/linkedlists.h \
+  ../include/asterisk/lock.h ../include/asterisk/config.h \
+  ../include/asterisk/cdr.h ../include/asterisk/channel.h \
+  ../include/asterisk/utils.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/config.h \
+  ../include/asterisk/logger.h ../include/asterisk/module.h \
+  ../include/asterisk/pbx.h ../include/asterisk/options.h \
+  ../include/asterisk/sched.h ../include/asterisk/io.h \
+  ../include/asterisk/rtp.h ../include/asterisk/io.h \
+  ../include/asterisk/acl.h ../include/asterisk/callerid.h \
+  ../include/asterisk/file.h ../include/asterisk/cli.h \
+  ../include/asterisk/app.h ../include/asterisk/musiconhold.h \
+  ../include/asterisk/manager.h ../include/asterisk/features.h \
+  ../include/asterisk/utils.h ../include/asterisk/causes.h \
+  ../include/asterisk/astdb.h ../include/asterisk/devicestate.h \
+  ../include/asterisk/monitor.h
+chan_features.o: chan_features.c /usr/include/stdio.h \
+  /usr/include/features.h /usr/include/bits/predefs.h \
+  /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/string.h /usr/include/xlocale.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/alloca.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/netdb.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/rpc/netdb.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/netdb.h \
+  /usr/include/arpa/inet.h /usr/include/sys/signal.h \
+  /usr/include/signal.h /usr/include/bits/signum.h \
+  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+  /usr/include/asm/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/sys/ucontext.h /usr/include/sys/procfs.h \
+  /usr/include/sys/time.h /usr/include/sys/user.h \
+  /usr/include/bits/sigthread.h ../include/asterisk.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/bits/initspin.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/frame.h \
+  ../include/asterisk/endian.h ../include/asterisk/sched.h \
+  ../include/asterisk/chanvars.h ../include/asterisk/linkedlists.h \
+  ../include/asterisk/lock.h ../include/asterisk/config.h \
+  ../include/asterisk/cdr.h ../include/asterisk/channel.h \
+  ../include/asterisk/utils.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/config.h \
+  ../include/asterisk/logger.h ../include/asterisk/module.h \
+  ../include/asterisk/pbx.h ../include/asterisk/options.h \
+  ../include/asterisk/sched.h ../include/asterisk/io.h \
+  ../include/asterisk/rtp.h ../include/asterisk/io.h \
+  ../include/asterisk/acl.h ../include/asterisk/callerid.h \
+  ../include/asterisk/file.h ../include/asterisk/cli.h \
+  ../include/asterisk/app.h ../include/asterisk/musiconhold.h \
+  ../include/asterisk/manager.h
+chan_h323.o: chan_h323.c /usr/include/sys/socket.h \
+  /usr/include/features.h /usr/include/bits/predefs.h \
+  /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+  /usr/include/sys/uio.h /usr/include/sys/types.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+  /usr/include/asm/sockios.h /usr/include/sys/signal.h \
+  /usr/include/signal.h /usr/include/bits/signum.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+  /usr/include/bits/sigcontext.h /usr/include/asm/sigcontext.h \
+  /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+  /usr/include/sys/procfs.h /usr/include/sys/time.h \
+  /usr/include/sys/user.h /usr/include/bits/sigthread.h \
+  /usr/include/sys/param.h /usr/include/linux/param.h \
+  /usr/include/asm/param.h /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h \
+  /usr/include/bits/wchar.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/net/if.h \
+  /usr/include/netinet/in_systm.h /usr/include/netinet/ip.h \
+  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/xlocale.h /usr/include/alloca.h /usr/include/netdb.h \
+  /usr/include/rpc/netdb.h /usr/include/bits/netdb.h /usr/include/stdio.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
+  /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h /usr/include/fcntl.h \
+  /usr/include/bits/fcntl.h /usr/include/sys/stat.h \
+  /usr/include/bits/stat.h ../include/asterisk.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/bits/initspin.h ../include/asterisk/logger.h \
+  ../include/asterisk/compat.h ../include/asterisk/logger.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/frame.h \
+  ../include/asterisk/endian.h ../include/asterisk/sched.h \
+  ../include/asterisk/chanvars.h ../include/asterisk/linkedlists.h \
+  ../include/asterisk/lock.h ../include/asterisk/config.h \
+  ../include/asterisk/cdr.h ../include/asterisk/channel.h \
+  ../include/asterisk/utils.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/config.h \
+  ../include/asterisk/module.h ../include/asterisk/pbx.h \
+  ../include/asterisk/options.h ../include/asterisk/utils.h \
+  ../include/asterisk/sched.h ../include/asterisk/io.h \
+  ../include/asterisk/rtp.h ../include/asterisk/io.h \
+  ../include/asterisk/acl.h ../include/asterisk/callerid.h \
+  ../include/asterisk/cli.h ../include/asterisk/dsp.h \
+  ../include/asterisk/causes.h h323/chan_h323.h
+chan_iax2.o: chan_iax2.c /usr/include/stdlib.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/endian.h /usr/include/bits/endian.h /usr/include/xlocale.h \
+  /usr/include/sys/types.h /usr/include/bits/types.h \
+  /usr/include/bits/wordsize.h /usr/include/bits/typesizes.h \
+  /usr/include/time.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/sys/mman.h \
+  /usr/include/bits/mman.h /usr/include/dirent.h \
+  /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+  /usr/include/asm/sockios.h /usr/include/netinet/in.h \
+  /usr/include/stdint.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/arpa/inet.h \
+  /usr/include/netinet/in_systm.h /usr/include/netinet/ip.h \
+  /usr/include/sys/time.h /usr/include/sys/signal.h /usr/include/signal.h \
+  /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+  /usr/include/asm/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/sys/ucontext.h /usr/include/sys/procfs.h \
+  /usr/include/sys/user.h /usr/include/bits/sigthread.h \
+  /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/netdb.h \
+  /usr/include/rpc/netdb.h /usr/include/bits/netdb.h /usr/include/fcntl.h \
+  /usr/include/bits/fcntl.h /usr/include/sys/stat.h \
+  /usr/include/bits/stat.h /usr/include/regex.h ../include/asterisk.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/bits/initspin.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/frame.h ../include/asterisk/endian.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/frame.h \
+  ../include/asterisk/sched.h ../include/asterisk/chanvars.h \
+  ../include/asterisk/linkedlists.h ../include/asterisk/lock.h \
+  ../include/asterisk/config.h ../include/asterisk/cdr.h \
+  ../include/asterisk/channel.h ../include/asterisk/utils.h \
+  ../include/asterisk/time.h ../include/asterisk/inline_api.h \
+  ../include/asterisk/strings.h ../include/asterisk/compiler.h \
+  ../include/asterisk/logger.h ../include/asterisk/module.h \
+  ../include/asterisk/pbx.h ../include/asterisk/sched.h \
+  ../include/asterisk/io.h ../include/asterisk/config.h \
+  ../include/asterisk/options.h ../include/asterisk/cli.h \
+  ../include/asterisk/translate.h ../include/asterisk/plc.h \
+  ../include/asterisk/md5.h /usr/include/inttypes.h \
+  ../include/asterisk/cdr.h ../include/asterisk/crypto.h \
+  ../include/asterisk/acl.h ../include/asterisk/io.h \
+  ../include/asterisk/manager.h ../include/asterisk/callerid.h \
+  ../include/asterisk/app.h ../include/asterisk/astdb.h \
+  ../include/asterisk/musiconhold.h ../include/asterisk/features.h \
+  ../include/asterisk/utils.h ../include/asterisk/causes.h \
+  ../include/asterisk/localtime.h ../include/asterisk/aes.h \
+  ../include/asterisk/dnsmgr.h ../include/asterisk/devicestate.h \
+  ../include/asterisk/netsock.h ../include/asterisk/astobj.h iax2.h \
+  iax2-parser.h iax2-provision.h ../jitterbuf.h
+chan_local.o: chan_local.c /usr/include/stdio.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/string.h /usr/include/xlocale.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/alloca.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/netdb.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/rpc/netdb.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/netdb.h \
+  /usr/include/arpa/inet.h /usr/include/sys/signal.h \
+  /usr/include/signal.h /usr/include/bits/signum.h \
+  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+  /usr/include/asm/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/sys/ucontext.h /usr/include/sys/procfs.h \
+  /usr/include/sys/time.h /usr/include/sys/user.h \
+  /usr/include/bits/sigthread.h ../include/asterisk.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/bits/initspin.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/frame.h \
+  ../include/asterisk/endian.h ../include/asterisk/sched.h \
+  ../include/asterisk/chanvars.h ../include/asterisk/linkedlists.h \
+  ../include/asterisk/lock.h ../include/asterisk/config.h \
+  ../include/asterisk/cdr.h ../include/asterisk/channel.h \
+  ../include/asterisk/utils.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/config.h \
+  ../include/asterisk/logger.h ../include/asterisk/module.h \
+  ../include/asterisk/pbx.h ../include/asterisk/options.h \
+  ../include/asterisk/sched.h ../include/asterisk/io.h \
+  ../include/asterisk/rtp.h ../include/asterisk/io.h \
+  ../include/asterisk/acl.h ../include/asterisk/callerid.h \
+  ../include/asterisk/file.h ../include/asterisk/cli.h \
+  ../include/asterisk/app.h ../include/asterisk/musiconhold.h \
+  ../include/asterisk/manager.h
+chan_mgcp.o: chan_mgcp.c /usr/include/stdio.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/string.h /usr/include/xlocale.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+  /usr/include/asm/ioctls.h /usr/include/asm/ioctl.h \
+  /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+  /usr/include/sys/ttydefaults.h /usr/include/net/if.h \
+  /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/alloca.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/netdb.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/rpc/netdb.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/netdb.h \
+  /usr/include/sys/signal.h /usr/include/signal.h \
+  /usr/include/bits/signum.h /usr/include/bits/sigaction.h \
+  /usr/include/bits/sigcontext.h /usr/include/asm/sigcontext.h \
+  /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+  /usr/include/sys/procfs.h /usr/include/sys/time.h \
+  /usr/include/sys/user.h /usr/include/bits/sigthread.h \
+  /usr/include/netinet/in_systm.h /usr/include/netinet/ip.h \
+  /usr/include/arpa/inet.h /usr/include/ctype.h ../include/asterisk.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/bits/initspin.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/frame.h \
+  ../include/asterisk/endian.h ../include/asterisk/sched.h \
+  ../include/asterisk/chanvars.h ../include/asterisk/linkedlists.h \
+  ../include/asterisk/lock.h ../include/asterisk/config.h \
+  ../include/asterisk/cdr.h ../include/asterisk/channel.h \
+  ../include/asterisk/utils.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/config.h \
+  ../include/asterisk/logger.h ../include/asterisk/module.h \
+  ../include/asterisk/pbx.h ../include/asterisk/options.h \
+  ../include/asterisk/sched.h ../include/asterisk/io.h \
+  ../include/asterisk/rtp.h ../include/asterisk/io.h \
+  ../include/asterisk/acl.h ../include/asterisk/callerid.h \
+  ../include/asterisk/cli.h ../include/asterisk/say.h \
+  ../include/asterisk/file.h ../include/asterisk/cdr.h \
+  ../include/asterisk/astdb.h ../include/asterisk/features.h \
+  ../include/asterisk/app.h ../include/asterisk/musiconhold.h \
+  ../include/asterisk/utils.h ../include/asterisk/causes.h \
+  ../include/asterisk/dsp.h
+chan_modem.o: chan_modem.c /usr/include/stdio.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/endian.h /usr/include/bits/endian.h /usr/include/xlocale.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/alloca.h /usr/include/ctype.h /usr/include/string.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/sys/time.h /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/bits/in.h /usr/include/bits/byteswap.h \
+  /usr/include/arpa/inet.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h \
+  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+  /usr/include/asm/ioctls.h /usr/include/asm/ioctl.h \
+  /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+  /usr/include/sys/ttydefaults.h /usr/include/sys/termios.h \
+  /usr/include/termios.h /usr/include/bits/termios.h \
+  /usr/include/sys/signal.h /usr/include/signal.h \
+  /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+  /usr/include/asm/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/sys/ucontext.h /usr/include/sys/procfs.h \
+  /usr/include/sys/user.h /usr/include/bits/sigthread.h \
+  ../include/asterisk.h ../include/asterisk/lock.h /usr/include/pthread.h \
+  /usr/include/sched.h /usr/include/bits/initspin.h /usr/include/netdb.h \
+  /usr/include/rpc/netdb.h /usr/include/bits/netdb.h \
+  /usr/include/sys/param.h /usr/include/linux/param.h \
+  /usr/include/asm/param.h ../include/asterisk/logger.h \
+  ../include/asterisk/compat.h ../include/asterisk/channel.h \
+  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+  /usr/include/sys/poll.h /usr/include/bits/poll.h \
+  ../include/asterisk/frame.h ../include/asterisk/endian.h \
+  ../include/asterisk/sched.h ../include/asterisk/chanvars.h \
+  ../include/asterisk/linkedlists.h ../include/asterisk/lock.h \
+  ../include/asterisk/config.h ../include/asterisk/cdr.h \
+  ../include/asterisk/channel.h ../include/asterisk/utils.h \
+  ../include/asterisk/time.h ../include/asterisk/inline_api.h \
+  ../include/asterisk/strings.h ../include/asterisk/compiler.h \
+  ../include/asterisk/config.h ../include/asterisk/logger.h \
+  ../include/asterisk/module.h ../include/asterisk/pbx.h \
+  ../include/asterisk/options.h ../include/asterisk/vmodem.h \
+  ../include/asterisk/utils.h
+chan_modem_aopen.o: chan_modem_aopen.c /usr/include/stdio.h \
+  /usr/include/features.h /usr/include/bits/predefs.h \
+  /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/string.h /usr/include/xlocale.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/types.h /usr/include/time.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h /usr/include/alloca.h /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h ../include/asterisk.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/signal.h /usr/include/bits/initspin.h \
+  /usr/include/bits/sigthread.h /usr/include/netdb.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/bits/in.h /usr/include/bits/byteswap.h \
+  /usr/include/rpc/netdb.h /usr/include/bits/siginfo.h \
+  /usr/include/bits/netdb.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/vmodem.h ../include/asterisk/frame.h \
+  /usr/include/sys/time.h ../include/asterisk/endian.h \
+  ../include/asterisk/channel.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+  /usr/include/sys/poll.h /usr/include/bits/poll.h \
+  ../include/asterisk/sched.h ../include/asterisk/chanvars.h \
+  ../include/asterisk/linkedlists.h ../include/asterisk/lock.h \
+  ../include/asterisk/config.h ../include/asterisk/cdr.h \
+  ../include/asterisk/utils.h /usr/include/arpa/inet.h \
+  ../include/asterisk/time.h ../include/asterisk/inline_api.h \
+  ../include/asterisk/strings.h ../include/asterisk/compiler.h \
+  ../include/asterisk/module.h ../include/asterisk/frame.h \
+  ../include/asterisk/logger.h ../include/asterisk/options.h
+chan_modem_bestdata.o: chan_modem_bestdata.c /usr/include/stdio.h \
+  /usr/include/features.h /usr/include/bits/predefs.h \
+  /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/string.h /usr/include/xlocale.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/types.h /usr/include/time.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h /usr/include/alloca.h /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  ../include/asterisk.h ../include/asterisk/lock.h /usr/include/pthread.h \
+  /usr/include/sched.h /usr/include/signal.h /usr/include/bits/initspin.h \
+  /usr/include/bits/sigthread.h /usr/include/netdb.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/bits/in.h /usr/include/bits/byteswap.h \
+  /usr/include/rpc/netdb.h /usr/include/bits/siginfo.h \
+  /usr/include/bits/netdb.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/vmodem.h ../include/asterisk/frame.h \
+  /usr/include/sys/time.h ../include/asterisk/endian.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/sched.h \
+  ../include/asterisk/chanvars.h ../include/asterisk/linkedlists.h \
+  ../include/asterisk/lock.h ../include/asterisk/config.h \
+  ../include/asterisk/cdr.h ../include/asterisk/utils.h \
+  /usr/include/arpa/inet.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/module.h \
+  ../include/asterisk/frame.h ../include/asterisk/logger.h \
+  ../include/asterisk/options.h
+chan_modem_i4l.o: chan_modem_i4l.c /usr/include/stdio.h \
+  /usr/include/features.h /usr/include/bits/predefs.h \
+  /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/string.h /usr/include/xlocale.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/types.h /usr/include/time.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h /usr/include/alloca.h /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+  /usr/include/asm/ioctls.h /usr/include/asm/ioctl.h \
+  /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+  /usr/include/sys/ttydefaults.h ../include/asterisk.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/signal.h /usr/include/bits/initspin.h \
+  /usr/include/bits/sigthread.h /usr/include/netdb.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/bits/in.h /usr/include/bits/byteswap.h \
+  /usr/include/rpc/netdb.h /usr/include/bits/siginfo.h \
+  /usr/include/bits/netdb.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/vmodem.h ../include/asterisk/frame.h \
+  /usr/include/sys/time.h ../include/asterisk/endian.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/sched.h \
+  ../include/asterisk/chanvars.h ../include/asterisk/linkedlists.h \
+  ../include/asterisk/lock.h ../include/asterisk/config.h \
+  ../include/asterisk/cdr.h ../include/asterisk/utils.h \
+  /usr/include/arpa/inet.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/module.h \
+  ../include/asterisk/frame.h ../include/asterisk/logger.h \
+  ../include/asterisk/options.h ../include/asterisk/dsp.h \
+  ../include/asterisk/callerid.h ../include/asterisk/ulaw.h \
+  ../include/asterisk/pbx.h ../include/asterisk/utils.h
+chan_phone.o: chan_phone.c /usr/include/stdio.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/string.h /usr/include/xlocale.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/ctype.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/sys/types.h /usr/include/time.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h /usr/include/bits/uio.h \
+  /usr/include/bits/socket.h /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/sys/time.h /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/alloca.h \
+  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+  /usr/include/stdint.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/fcntl.h \
+  /usr/include/bits/fcntl.h /usr/include/sys/stat.h \
+  /usr/include/bits/stat.h /usr/include/sys/ioctl.h \
+  /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h \
+  /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
+  /usr/include/bits/ioctl-types.h /usr/include/sys/ttydefaults.h \
+  /usr/include/linux/telephony.h /usr/include/linux/version.h \
+  /usr/include/linux/compiler.h /usr/include/linux/ixjuser.h \
+  ../include/asterisk.h ../include/asterisk/lock.h /usr/include/pthread.h \
+  /usr/include/sched.h /usr/include/signal.h /usr/include/bits/initspin.h \
+  /usr/include/bits/sigthread.h /usr/include/netdb.h \
+  /usr/include/rpc/netdb.h /usr/include/bits/siginfo.h \
+  /usr/include/bits/netdb.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/frame.h \
+  ../include/asterisk/endian.h ../include/asterisk/sched.h \
+  ../include/asterisk/chanvars.h ../include/asterisk/linkedlists.h \
+  ../include/asterisk/lock.h ../include/asterisk/config.h \
+  ../include/asterisk/cdr.h ../include/asterisk/channel.h \
+  ../include/asterisk/utils.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/config.h \
+  ../include/asterisk/logger.h ../include/asterisk/module.h \
+  ../include/asterisk/pbx.h ../include/asterisk/options.h \
+  ../include/asterisk/utils.h ../include/asterisk/callerid.h \
+  ../include/asterisk/causes.h DialTone.h
+chan_sip.o: chan_sip.c /usr/include/stdio.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/ctype.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/xlocale.h /usr/include/string.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+  /usr/include/asm/ioctls.h /usr/include/asm/ioctl.h \
+  /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+  /usr/include/sys/ttydefaults.h /usr/include/net/if.h \
+  /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/alloca.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/netdb.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/rpc/netdb.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/netdb.h \
+  /usr/include/signal.h /usr/include/bits/signum.h \
+  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+  /usr/include/asm/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/sys/ucontext.h /usr/include/sys/procfs.h \
+  /usr/include/sys/time.h /usr/include/sys/user.h \
+  /usr/include/bits/sigthread.h /usr/include/sys/signal.h \
+  /usr/include/netinet/in_systm.h /usr/include/arpa/inet.h \
+  /usr/include/netinet/ip.h /usr/include/regex.h ../include/asterisk.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/bits/initspin.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/compat.h \
+  ../include/asterisk/channel.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h ../include/asterisk/frame.h \
+  ../include/asterisk/endian.h ../include/asterisk/sched.h \
+  ../include/asterisk/chanvars.h ../include/asterisk/linkedlists.h \
+  ../include/asterisk/lock.h ../include/asterisk/config.h \
+  ../include/asterisk/cdr.h ../include/asterisk/channel.h \
+  ../include/asterisk/utils.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/config.h \
+  ../include/asterisk/logger.h ../include/asterisk/module.h \
+  ../include/asterisk/pbx.h ../include/asterisk/options.h \
+  ../include/asterisk/sched.h ../include/asterisk/io.h \
+  ../include/asterisk/rtp.h ../include/asterisk/io.h \
+  ../include/asterisk/acl.h ../include/asterisk/manager.h \
+  ../include/asterisk/callerid.h ../include/asterisk/cli.h \
+  ../include/asterisk/app.h ../include/asterisk/musiconhold.h \
+  ../include/asterisk/dsp.h ../include/asterisk/features.h \
+  ../include/asterisk/srv.h ../include/asterisk/astdb.h \
+  ../include/asterisk/causes.h ../include/asterisk/utils.h \
+  ../include/asterisk/file.h ../include/asterisk/astobj.h \
+  ../include/asterisk/dnsmgr.h ../include/asterisk/devicestate.h \
+  ../include/asterisk/linkedlists.h
+chan_skinny.o: chan_skinny.c /usr/include/stdio.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/endian.h /usr/include/bits/endian.h /usr/include/xlocale.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/netinet/tcp.h \
+  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+  /usr/include/asm/ioctls.h /usr/include/asm/ioctl.h \
+  /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+  /usr/include/sys/ttydefaults.h /usr/include/net/if.h \
+  /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/sys/stat.h \
+  /usr/include/bits/stat.h /usr/include/netdb.h /usr/include/rpc/netdb.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/netdb.h \
+  /usr/include/arpa/inet.h /usr/include/sys/signal.h \
+  /usr/include/signal.h /usr/include/bits/signum.h \
+  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+  /usr/include/asm/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/sys/ucontext.h /usr/include/sys/procfs.h \
+  /usr/include/sys/time.h /usr/include/sys/user.h \
+  /usr/include/bits/sigthread.h /usr/include/ctype.h \
+  ../include/asterisk.h ../include/asterisk/lock.h /usr/include/pthread.h \
+  /usr/include/sched.h /usr/include/bits/initspin.h \
+  /usr/include/sys/param.h /usr/include/linux/param.h \
+  /usr/include/asm/param.h ../include/asterisk/logger.h \
+  ../include/asterisk/compat.h ../include/asterisk/channel.h \
+  /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+  /usr/include/sys/poll.h /usr/include/bits/poll.h \
+  ../include/asterisk/frame.h ../include/asterisk/endian.h \
+  ../include/asterisk/sched.h ../include/asterisk/chanvars.h \
+  ../include/asterisk/linkedlists.h ../include/asterisk/lock.h \
+  ../include/asterisk/config.h ../include/asterisk/cdr.h \
+  ../include/asterisk/channel.h ../include/asterisk/utils.h \
+  ../include/asterisk/time.h ../include/asterisk/inline_api.h \
+  ../include/asterisk/strings.h ../include/asterisk/compiler.h \
+  ../include/asterisk/config.h ../include/asterisk/logger.h \
+  ../include/asterisk/module.h ../include/asterisk/pbx.h \
+  ../include/asterisk/options.h ../include/asterisk/sched.h \
+  ../include/asterisk/io.h ../include/asterisk/rtp.h \
+  ../include/asterisk/io.h ../include/asterisk/acl.h \
+  ../include/asterisk/callerid.h ../include/asterisk/cli.h \
+  ../include/asterisk/say.h ../include/asterisk/file.h \
+  ../include/asterisk/cdr.h ../include/asterisk/astdb.h \
+  ../include/asterisk/features.h ../include/asterisk/app.h \
+  ../include/asterisk/musiconhold.h ../include/asterisk/utils.h \
+  ../include/asterisk/dsp.h
+gentone-ulaw.o: gentone-ulaw.c /usr/include/stdio.h \
+  /usr/include/features.h /usr/include/bits/predefs.h \
+  /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/math.h \
+  /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+  /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+  /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+  /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+  /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/stdlib.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/alloca.h
+gentone.o: gentone.c /usr/include/stdio.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/math.h \
+  /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+  /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+  /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+  /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+  /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/stdlib.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/alloca.h
+iax2-parser.o: iax2-parser.c /usr/include/sys/types.h \
+  /usr/include/features.h /usr/include/bits/predefs.h \
+  /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+  /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+  /usr/include/asm/sockios.h /usr/include/string.h /usr/include/xlocale.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/stdlib.h /usr/include/netinet/in.h /usr/include/stdint.h \
+  /usr/include/bits/wchar.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h /usr/include/arpa/inet.h \
+  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/alloca.h \
+  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+  /usr/include/wchar.h /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
+  ../include/asterisk.h ../include/asterisk/frame.h \
+  /usr/include/sys/time.h ../include/asterisk/endian.h \
+  ../include/asterisk/compat.h ../include/asterisk/utils.h \
+  /usr/include/netdb.h /usr/include/rpc/netdb.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/netdb.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/signal.h /usr/include/bits/initspin.h \
+  /usr/include/bits/sigthread.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h ../include/asterisk/unaligned.h iax2.h \
+  iax2-parser.h iax2-provision.h
+iax2-provision.o: iax2-provision.c /usr/include/unistd.h \
+  /usr/include/features.h /usr/include/bits/predefs.h \
+  /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/wordsize.h /usr/include/bits/types.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stddef.h \
+  /usr/include/bits/typesizes.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/endian.h /usr/include/bits/endian.h /usr/include/xlocale.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/stdio.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/netdb.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/limits.h \
+  /scratchbox/compilers/cs2005q3.2-glibc-arm/lib/gcc/arm-none-linux-gnueabi/3.4.4/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm/sockios.h \
+  /usr/include/bits/in.h /usr/include/bits/byteswap.h \
+  /usr/include/rpc/netdb.h /usr/include/bits/siginfo.h \
+  /usr/include/bits/netdb.h /usr/include/netinet/in_systm.h \
+  /usr/include/netinet/ip.h ../include/asterisk.h \
+  ../include/asterisk/config.h ../include/asterisk/logger.h \
+  ../include/asterisk/compat.h ../include/asterisk/cli.h \
+  ../include/asterisk/lock.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/signal.h /usr/include/bits/initspin.h \
+  /usr/include/bits/sigthread.h /usr/include/sys/param.h \
+  /usr/include/linux/param.h /usr/include/asm/param.h \
+  ../include/asterisk/logger.h ../include/asterisk/frame.h \
+  /usr/include/sys/time.h ../include/asterisk/endian.h \
+  ../include/asterisk/options.h ../include/asterisk/md5.h \
+  /usr/include/inttypes.h ../include/asterisk/astdb.h \
+  ../include/asterisk/utils.h /usr/include/arpa/inet.h \
+  ../include/asterisk/lock.h ../include/asterisk/time.h \
+  ../include/asterisk/inline_api.h ../include/asterisk/strings.h \
+  ../include/asterisk/compiler.h iax2.h iax2-provision.h iax2-parser.h
